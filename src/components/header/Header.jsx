@@ -1,5 +1,3 @@
 export default function Header() {
-    return (
-        <p>test header data</p>
-    )
+  return <p>test header data</p>;
 }
