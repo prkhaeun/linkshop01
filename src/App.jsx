@@ -1,18 +1,11 @@
-import { useState } from 'react';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 
-function App() {
-  const [count, setCount] = useState(0);
-  const handleonClick = () => {
-    setCount(count + 1);
-  };
-
+export default function App() {
   return (
     <>
-      <button onClick={handleonClick}>그냥 넣어놓은 버튼입니다 ^_^. .</button>
-      <br />
-      {count}
+      <Header />
+      <Footer />
     </>
   );
 }
-
-export default App;
